@@ -10,6 +10,12 @@ html, body {
   font-size: 20px;
 }
 
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
 h1 {
   color: rgb(255, 245, 0);
   text-align: center;
@@ -41,9 +47,17 @@ p {
     font-size: 120%;
 font-weight: 400;
 font-style: normal;
-background-color: rgb(43, 11, 88);
+background-color: black;
 
 }
+ /*NAVIGATION HOVER*/
+ a:hover{
+   background-color: yellow;
+   color: black;
+   padding: 25px;
+   transition: 0.3s;
+ }
+  /*NAVIGATION HOVER*/
 
 .centered {
   position: absolute;
@@ -53,24 +67,16 @@ background-color: rgb(43, 11, 88);
 }
 
 
-#ice {
+#ice , #splice , #splice2 {
   width: 100%;
     height: auto;
      object-fit: cover;
   margin: 0px;
   padding: 0px;
   border: 0px;
-  background-color: rgb(43, 11, 88);
+  background-color: black;
 }
-#splice {
-  width: 100%;
-    height: auto;
-     object-fit: cover;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  background-color: rgb(43, 11, 88);
-}
+
 
 .comissions{
   color: white;
@@ -78,8 +84,8 @@ background-color: rgb(43, 11, 88);
   font-size: 120%;
 font-weight: 400;
 font-style: normal;
-background-color: rgb(83, 157, 244);
-padding: 20px;
+background-color: black;
+padding: 30px;
 }
 
 
